@@ -18,6 +18,7 @@ const useData = <T>(
 
   useEffect(
     () => {
+      console.log("called!");
       const controller = new AbortController();
 
       setLoading(true);
