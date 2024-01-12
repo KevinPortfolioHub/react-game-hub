@@ -17,6 +17,10 @@ function App() {
   return (
     <>
       <Grid
+        // templateAreas={{
+        //   base: `"nav" "main"`,
+        //   lg: `"nav nav" "aside main"`,
+        // }}
         templateAreas={{
           base: `"nav" "main"`,
           lg: `"nav nav" "aside main"`,
