@@ -1,4 +1,6 @@
 const GameDetailPage = () => {
+  throw new Error("An error!");
+
   return <p>GameDetailPage</p>;
 };
 
